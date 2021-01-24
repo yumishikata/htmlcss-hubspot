@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #34465d;
+  word-spacing: 3px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+header {
+  width: 100%;
+}
+
+.head_navfix {
+  background-color: #f6faff;
+  border-bottom: 1px solid #34465d;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+.width_80 {
+  width: 80%;
+  margin: 0 auto;
+}
+.nav_fixed , .secondo_nav {
+  line-height: 10vh;
+}
+
+.nav_fixed ul, .nav_fixed li , .secondo_nav ul , .secondo_nav li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #34465d;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul li a {
+  padding-left: 15px;
+}
+.nav_fixed ul , .logo , .secondo_nav ul {
+  float: left;
+}
+.ul_left , .logo {
+  width: 50%;
+}
+.ul_right {
+  width: 50%;
+  text-align: right;
+}
+
+#contact_us {
+  border-left: 1px solid #2b2b2b;
+}
+#lingua {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+#lingua::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f7a2';
+}
+#lingua::after {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f107';
+}
+
+#lente::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f002';
+  color: #3acfff;
+}
+
+.button {
+  border: 1px solid #ff784e;
+  border-radius: 5px;
+  padding: 7px;
+}
+nav ul .button {
+  margin-left: 15px;
+}
+
+.b_white {
+  background-color: white;
+  color: #ff784e;
+}
+
+.b_orange {
+  background-color: #ff784e;
+  color: white;
+}
+
+.head_secondo_nav {
+  width: 100%;
+  background-color: white;
+  padding-top: 10vh;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
+.freccina::after {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f107';
+  padding-left: 10px;
+}
+
+.jumbotron {
+  height: 80vh;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:100% -13vh;
+  padding: 10vh;
+  padding-left: 10%;
+  padding-right: 57%;
+}
+
+ .j h1 {
+   font-size: 300%;
+   margin-bottom: 30px;
+ }
+
+ p {
+   line-height: 25px;
+ }
+
+ .j p {
+   margin-bottom: 50px;
+ }
+
+.b_large {
+  padding: 20px 30px;
+}
+
+.j p:last-child {
+  margin-top: 50px;
+  font-size: 80%;
+}
+
+.head_bar {
+  height: 10vh;
+  background-color: #7bddd2;
+  border-bottom: 2px solid #34465d;
+  border-top: 2px solid #34465d;
+}
+
+main {
+  background-color: #f6faff;
+}
+
+.main_cubo {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.main_cubo img {
+  width: 400px;
+}
+.main_cubo h2 {
+  font-size: 200%;
+  margin-bottom: 20px;
+}
+
+.blocco {
+  background-color: white;
+  box-shadow: 0 0 2px grey;
+  border-radius: 5px;
+}
+
+.bl_orizzontale {
+  padding: 70px;
+  margin-bottom: 10vh;
+}
+
+.bl_orizzontale img {
+  margin-bottom: 40px;
+  height: 120px;
+  display: block;
+}
+
+.bl_orizzontale div {
+  float: left;
+}
+.bl_orizzontale div:first-child {
+  width: 30%;
+}
+.bl_orizzontale div:last-child {
+  width: 70%;
+}
+
+.bl_orizzontale hr , .bl_orizzontale h3 {
+  display: inline-block;
+}
+
+.bl_orizzontale hr {
+  width: 65%;
+  margin-left: 10%;
+}
+
+.bl_orizzontale div h2 {
+  margin-bottom: 30px;
+}
+
+.bl_orizzontale div h3 {
+  margin: 20px 0;
+}
+
+.bl_orizzontale ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Check arancione  */
+.blocco ul li::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f058';
+  color:  #ff784e;
+  padding-right: 10px;
+}
+.tre_colonne {
+  margin-bottom: 10vh;
+
+}
+.bl_3col {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 40px;
+}
+
+.col_middle {
+  margin: 0 5%;
+}
+
+.bl_3col img {
+  height: 120px;
+}
+
+.bl_3col h2 , .bl_3col h3 {
+  margin: 30px 0;
+}
+
+.bl_3col hr {
+  margin-top: 50px;
+}
+
+.bl_3col ul {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.sezione_azzurra {
+  width: 100%;
+  padding: 0 10%;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  text-align: center;
+  color: white;
+  background: rgb(0,165,187);
+  background: linear-gradient(90deg, rgba(0,165,187,1) 0%, rgba(0,186,167,1) 100%);
+}
+
+.sezione_azzurra h2 {
+  font-size: 200%;
+  margin-bottom: 30px;
+}
