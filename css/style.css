@@ -273,7 +273,7 @@ main {
 .sezione_azzurra {
   width: 100%;
   padding: 0 10%;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 70px;
   text-align: center;
   color: white;
@@ -281,7 +281,34 @@ main {
   background: linear-gradient(90deg, rgba(0,165,187,1) 0%, rgba(0,186,167,1) 100%);
 }
 
-.sezione_azzurra h2 {
+.sezione_azzurra > h2 {
   font-size: 200%;
   margin-bottom: 30px;
+}
+
+.quadrato {
+  width: 25%;
+  display: inline-block;
+  height: 30vh;
+  padding: 20px 0;
+}
+
+.struttura_quadrati {
+  margin-top: 50px;
+}
+
+.quadrato:not(:first-child):not(:nth-child(5)){
+  border-left: 1px solid white;
+}
+
+.quadrato:nth-child(1n + 5) {
+  border-top: 1px solid white;
+}
+
+.quadrato h2 {
+  font-size: 250%;
+  margin: 10px 0;
+}
+.quadrato img {
+  height: 40px;
 }
