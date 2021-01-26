@@ -536,3 +536,9 @@ header a:hover:not(.button) {
 .hover_freccina li:hover .hid {
   visibility: visible;
 }
+
+/* Quando si pigia sul menu diventa arancione */
+.hover_freccina li:active .hid {
+  background-color: #ff784e;
+  color: white;
+}
