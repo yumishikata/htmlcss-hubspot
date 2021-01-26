@@ -17,6 +17,38 @@ body {
   clear: both;
 }
 
+/* REGOLE GENERALI  */
+
+.width_80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #34465d;
+}
+
+li {
+  list-style: none;
+}
+
+.float {
+  float: left;
+}
+
+.button {
+  border: 1px solid #ff784e;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+p {
+ line-height: 25px;
+}
+
+/* HEADER  */
+
 header {
   width: 100%;
 }
@@ -31,36 +63,23 @@ header {
   z-index: 99999;
 }
 
-.width_80 {
-  width: 80%;
-  margin: 0 auto;
-}
 .nav_fixed , .secondo_nav {
   line-height: 10vh;
 }
 
-.nav_fixed ul, .nav_fixed li , .secondo_nav ul , .secondo_nav li {
+.nav_fixed ul, .nav_fixed li , .secondo_nav ul , .secondo_nav li{
   display: inline;
-}
-
-a {
-  text-decoration: none;
-  color: #34465d;
-}
-
-li {
-  list-style: none;
 }
 
 nav ul li a {
   padding-left: 15px;
 }
-.nav_fixed ul , .logo , .secondo_nav ul {
-  float: left;
-}
+
+
 .ul_left , .logo {
   width: 50%;
 }
+
 .ul_right {
   width: 50%;
   text-align: right;
@@ -74,26 +93,25 @@ nav ul li a {
   padding-left: 0;
 }
 
+/* Mondino  */
 #lingua::before {
   font-family: 'Font Awesome 5 Free';
   content: '\f7a2';
 }
+
+/* freccina attaccata  */
 #lingua::after {
   font-family: 'Font Awesome 5 Free';
   content: '\f107';
 }
 
+/* lente  */
 #lente::before {
   font-family: 'Font Awesome 5 Free';
   content: '\f002';
   color: #3acfff;
 }
 
-.button {
-  border: 1px solid #ff784e;
-  border-radius: 5px;
-  padding: 7px;
-}
 nav ul .button {
   margin-left: 15px;
 }
@@ -118,6 +136,7 @@ nav ul .button {
   vertical-align: middle;
 }
 
+/* freccina staccata  */
 .freccina::after {
   font-family: 'Font Awesome 5 Free';
   content: '\f107';
@@ -135,18 +154,14 @@ nav ul .button {
   padding-right: 57%;
 }
 
- .j h1 {
+.j h1 {
    font-size: 300%;
    margin-bottom: 30px;
- }
+}
 
- p {
-   line-height: 25px;
- }
-
- .j p {
-   margin-bottom: 50px;
- }
+.j p {
+ margin-bottom: 50px;
+}
 
 .b_large {
   padding: 20px 30px;
@@ -163,6 +178,10 @@ nav ul .button {
   border-bottom: 2px solid #34465d;
   border-top: 2px solid #34465d;
 }
+
+/* FINE HEADER  */
+
+/* INIZIO MAIN  */
 
 main {
   background-color: #f6faff;
@@ -199,9 +218,6 @@ main {
   display: block;
 }
 
-.bl_orizzontale div {
-  float: left;
-}
 .bl_orizzontale div:first-child {
   width: 30%;
 }
@@ -323,9 +339,6 @@ main {
   margin: 0 auto;
   margin-bottom: 50px;
 }
-.bianca1 , .bianca2{
-  float: left;
-}
 
 .bianca1 h2{
   font-size: 300%;
@@ -374,6 +387,10 @@ main {
   font-size: 80%;
 }
 
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+
 footer {
   width: 100%;
   background-color: #394a60;
@@ -402,6 +419,7 @@ footer * {
   background-color: #cbd6e2;
   color: #394a60;
   border: 1px solid #cbd6e2;
+
 }
 
 .social {
@@ -460,4 +478,61 @@ footer * {
 .ultimo_footer div:last-child {
 
   text-align: right;
+}
+
+/* HOVER */
+
+footer a:hover:not(.button):not(.social a) {
+  color: #f8b164;
+}
+
+.facebook:hover {
+  color: #5aa2f1;
+}
+
+.instagram:hover {
+  color: #ff5079;
+}
+
+.youtube:hover {
+  color: #e20000;
+}
+
+.twitter:hover {
+  color: #23c3f3;
+}
+
+.linkedin:hover {
+  color: white;
+}
+
+header a:hover:not(.button) {
+  color: #ff784e;
+}
+
+.button:hover {
+  box-shadow: 3px 3px 3px grey;
+  opacity: 0.8;
+}
+
+.hover_freccina li {
+  position: relative;
+}
+
+.hid {
+  width: 150px;
+  background-color: white;
+  visibility: hidden;
+  position:absolute;
+  top: 30px;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid #ff784e;
+  text-align: center;
+  box-shadow: 3px 3px 3px grey;
+  padding: 10px 5px;
+}
+
+.hover_freccina li:hover .hid {
+  visibility: visible;
 }

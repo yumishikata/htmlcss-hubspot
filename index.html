@@ -11,62 +11,101 @@
   </head>
   <body>
 
+   <!-- HEADER  -->
+
     <header>
-      <div class="clearfix head_navfix">
+
+      <section class="clearfix head_navfix">
+
         <!-- Primo nav fixed -->
         <nav class=" width_80 nav_fixed">
-          <ul class="ul_left">
+
+          <ul class="float ul_left">
             <li><a href="#" id="lingua"> English </a></li>
             <li><a href="#" id="contact_us">Contact Us</a></li>
           </ul>
-          <ul class="ul_right">
+          <ul class="float ul_right">
             <li><a href="#" id="lente"></a></li>
             <li><a href="#" class="button b_white">Log in</a></li>
             <li><a href="#" class="button b_orange">GetHubspotFree</a></li>
           </ul>
+
         </nav>
-      </div>
+
+      </section>
+
       <!-- Secondo div dell'header -->
-      <div class="clearfix head_secondo_nav">
+      <section class="clearfix head_secondo_nav">
+
         <nav class="width_80 secondo_nav">
-          <div class="logo">
-          <img src="img/logo.svg" alt="logo hubspot">
+
+          <div class="float logo">
+            <img src="img/logo.svg" alt="logo hubspot">
           </div>
-          <ul class="ul_right">
-            <li><a href="#" class="freccina">Software </a></li>
+
+          <ul class="float ul_right hover_freccina">
+            <li><a href="#" class="freccina">Software </a>
+                <div class="hid">
+                  <h4>Free HubSpot CRM</h4>
+                  <p>All your contact and companies,<b>100% free.</b> </p>
+                </div>
+            </li>
             <li><a href="#">Pricing</a></li>
-            <li><a href="#"class="freccina">Resources </a></li>
-            <li><a href="#"class="freccina">Partners </a></li>
-            <li><a href="#"class="freccina">About </a></li>
+            <li><a href="#"class="freccina">Resources </a>
+              <div class="hid">
+                <h4>Customer Stories</h4>
+                <p>Hear from the businesses that use HubSpot to grow better every day.</p>
+              </div>
+            </li>
+            <li><a href="#"class="freccina">Partners </a>
+              <div class="hid">
+                <h4>Partner With Us</h4>
+                <p>Explore our sales, agency, and app partnership programs.</p>
+              </div>
+            </li>
+            <li><a href="#"class="freccina">About </a>
+              <div class="hid">
+                <h4>Company</h4>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Mangement Team</p>
+              </div>
+            </li>
           </ul>
         </nav>
-      </div>
+
+      </section>
+
       <!-- Terzo div dell'header per jumbotron -->
-      <div class="jumbotron j">
+      <section class="jumbotron j">
         <h1>There's a better way to grow.</h1>
-        <p>Marketing, sales, and service software that helps your business grow without compromise. Because "good fot he nusiness" should also mean "good for the customer."</p>
+        <p>Marketing, sales, and service software that helps your business grow without compromise. Because "good for he nusiness" should also mean "good for the customer."</p>
         <a href="#" class="button b_orange b_large">GetHubspotFree</a>
         <p>Get started with FREE tools, and upgrade as you grow.</p>
-      </div>
+      </section>
+
       <!-- Ultimo div dell'header con la barra  -->
       <div class="head_bar">
       </div>
     </header>
-    <!-- Fine header e inizio main  -->
+
+    <!-- FINE HEADER E INIZIO MAIN  -->
 
     <main>
-      <div class="main_cubo">
+
+      <section class="main_cubo">
         <img src="img/cubo.svg" alt="cubo">
         <h2>Powerful Alone. Better Together</h2>
         <p>Hubspot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They're powerful alone - but even better when used together.</p>
-      </div>
+      </section>
+
       <!-- Inizio dei blocchi bianchi  -->
-      <div class="clearfix width_80 blocco bl_orizzontale">
-        <div>
+      <section class="clearfix width_80 blocco bl_orizzontale">
+        <div class="float">
           <img src="img/book-crm.svg" alt="book crm">
           <a href="#"class="button b_orange b_large">Learn More</a>
         </div>
-        <div>
+        <div class="float">
           <h2>Free Hubspot CRM</h2>
           <p>Everything you need to organize, track, and build better relationships with leads and customers. Yes, it's 100% free. Forever</p>
           <h3>POPOLAR FEATURE</h3>
@@ -77,7 +116,8 @@
             <li>Task</li>
           </ul>
         </div>
-      </div>
+      </section>
+
       <!-- FIne blocco orizzontale e inizio blocco tre colonne  -->
       <section class="clearfix width_80 tre_colonne">
 
@@ -129,8 +169,11 @@
       <!-- Fine tre colonne  -->
 
       <section class="sezione_azzurra">
+
         <h2>Learn and grow with award-winning support and a thriving community <br> behind you.</h2>
         <p>You don't have to go it alone. Master the inbound methodologi and get the most of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you. </p>
+
+        <!-- Inizio tabella  -->
         <div class="struttura_quadrati">
           <div class="quadrato">
             <img src="img/manine.svg" alt="groups">
@@ -172,17 +215,21 @@
             <h2>5K+</h2>
             <p>profiles and counting</p>
           </div>
+
         </div>
+
       </section>
+
       <!-- Fine sezione_azzurra e inizio ultima sezione bianca -->
       <section class="sezione_bianca">
 
         <div class="clearfix bianca_prima_riga">
-          <div class="bianca1 b1_left">
+
+          <div class="float bianca1 b1_left">
             <h2>64,500</h2>
             <p>customers in over <b>100</b> countries growing their businesses with Hubspot</p>
           </div>
-          <div class="bianca1 b1_right">
+          <div class="float bianca1 b1_right">
             <img src="img/atlassian.png" alt="atlassian">
             <img src="img/doordash.png" alt="doordash">
             <img src="img/crowd.png" alt="crowd">
@@ -195,22 +242,28 @@
         </div>
 
         <div class="clearfix width_80 bianca_seconda_riga">
-          <div class="bianca2 b2_left">
+
+          <div class="float bianca2 b2_left">
             <h2>Start Growing With Hubspot Today</h2>
             <p>With tools to make every part of your process more human and a cupport team excited to help you, getting started with inbound has never been easier.</p>
             <a href="#"class="button b_orange b_large">GetHubspotFree</a>
             <p>Get started with FREE tools, or get more with our premium software.</p>
           </div>
-          <div class="bianca2 b2_right">
+          <div class="float bianca2 b2_right">
             <img src="img/woman.webp" alt="donna">
           </div>
         </div>
+
       </section>
+
     </main>
-    <!-- Fine main inizio footer -->
+    <!-- FINE MAIN E INIZIO FOOTER -->
 
     <footer>
+
+      <!-- Quattro colonne del footer  -->
       <section class="clearfix width_80 quattro_colonne">
+
         <div class="col4">
           <h4>Increase Your Traffic</h4>
           <ul>
@@ -221,6 +274,7 @@
             <li><a href="#">Content Management System</a> </li>
           </ul>
         </div>
+
         <div class="col4">
           <h4>Connect With Leads</h4>
           <ul>
@@ -231,6 +285,7 @@
             <li><a href="#">Email Marketing</a> </li>
           </ul>
         </div>
+
         <div class="col4">
           <h4>Close and Manage Leads</h4>
           <ul>
@@ -241,6 +296,7 @@
             <li><a href="#">Pipeline Management Tool</a> </li>
           </ul>
         </div>
+
         <div class="col4">
           <h4>Support and Tools</h4>
           <ul>
@@ -257,9 +313,11 @@
             <li class="social"><a href="#"class="linkedin"></a> </li>
           </ul>
         </div>
+
       </section>
 
       <section class="width_80 lingue">
+
         <ul>
           <li><a href="#">English</a> </li>
           <li><a href="#">Deutsch</a> </li>
@@ -268,21 +326,27 @@
           <li><a href="#">Português</a> </li>
           <li><a href="#">Français</a> </li>
         </ul>
+
       </section>
 
       <section class="clearfix width_80 ultimo_footer">
+
         <div class="logo_grey">
           <img src="img/logo-grey.svg" alt="logo grey">
           <p>Copyright © 2019 HubSpot, Inc.</p>
         </div>
+
         <div>
           <ul>
             <li><a href="#">Legal Stuff</a></li>
             <li><a href="#">Privacy Policy</a></li>
           </ul>
         </div>
+
       </section>
+
     </footer>
 
   </body>
+
 </html>
